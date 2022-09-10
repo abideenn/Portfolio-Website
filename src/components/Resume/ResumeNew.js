@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/Zain_ul_Abideen_Resume.pdf";
+import pdf from "../../Assets/Zain ul Abideen Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/zai-n/Sentiment-Analysis/ae14f23b008d5d83ff52eba1637ab3ea5a3238eb/Zain_ul_Abideen_Resume.pdf";
+  "https://raw.githubusercontent.com/zai-n/Portfolio-Website/8a76442dd50f6b7339dc4d3b80350e436e703f25/src/Assets/Zain%20ul%20Abideen%20Resume.pdf";
   
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
